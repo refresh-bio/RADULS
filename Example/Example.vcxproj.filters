@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Raduls">
+      <UniqueIdentifier>{8256ba8e-d756-4c02-b6e5-42d19b16dbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Raduls\Header Files">
+      <UniqueIdentifier>{755d995f-0be4-44bc-9d61-7c711e08d1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Raduls\Source Files">
+      <UniqueIdentifier>{5da658df-16c5-44a0-a787-298ff00e41c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Raduls\sorting_network.cpp">
+      <Filter>Raduls\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Raduls\comp_and_swap.h">
+      <Filter>Raduls\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Raduls\exceptions.h">
+      <Filter>Raduls\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Raduls\raduls.h">
+      <Filter>Raduls\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Raduls\record.h">
+      <Filter>Raduls\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Raduls\small_sort.h">
+      <Filter>Raduls\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Raduls\sorting_network.h">
+      <Filter>Raduls\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Opt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Raduls\defs.h">
+      <Filter>Raduls\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
