@@ -1,6 +1,7 @@
 #pragma once
 #include "defs.h"
 #include "xmmintrin.h"
+#include <emmintrin.h>
 namespace raduls
 {
 	namespace small_sort
