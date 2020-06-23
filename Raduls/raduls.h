@@ -21,7 +21,6 @@ namespace raduls
 	//config
 	const uint32_t MAX_REC_SIZE_IN_BYTES = 32;
 
-	constexpr uint32 ALIGNMENT = 0x100;
 	constexpr int32 BUFFER_WIDTHS[] = { -1, 32, 16, 16, 8, 8, 4, 8, 4 };
 	const uint64 small_sort_thresholds[] = { 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384 };	
 	const uint64 wide_small_sort_thresholds[] = { 64, 48, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 };
